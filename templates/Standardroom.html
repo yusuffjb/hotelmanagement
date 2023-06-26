@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Standard Room</title>
+
+</head>
+<body>
+  <h1>Standard Rooms</h1>
+  <p>Standard Room Cost:950/day</p>
+  <form action="/standard_booking" method="POST">
+  <label for="Name">Name</label>
+            <input type="text" id="name" name="name" required><br><br>
+  <label for="Place">Place</label>
+            <input type="text" id="place" name="place" required><br><br>
+  <label for="number">Mobile Number</label>
+            <input type="number" id="number" name="number" required><br><br>
+
+  <p>Do you want to make a booking?</p>
+  <button onclick="bookNow()">Yes</button>
+  <button>No</button>
+      </form>
+</body>
+</html>
